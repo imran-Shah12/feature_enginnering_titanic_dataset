@@ -1,9 +1,10 @@
 # feature_enginnering_titanic_dataset
+
 Feature Engineering
 
-1) Data Cleaning:
+Data Cleaning:
 
-1.1) Addressing Missing Values:
+Addressing Missing Values:
 
 Missing data is a common issue in real-world datasets, which can hinder the performance of machine learning models. To handle missing values effectively, various techniques can be employed:
 
@@ -20,13 +21,13 @@ Missing values can occur due to different reasons:
 
 Types of Missing Data:
 
-(i) Missing Completely at Random (MCAR):
+1. Missing Completely at Random (MCAR):
 Missing values occur randomly throughout the dataset, unrelated to any observed or missing data. There's no discernible pattern to the missingness.
 
-(ii) Missing Data Not At Random (MNAR):
+2. Missing Data Not At Random (MNAR):
 The missingness is related to the missing values themselves, even after considering observed data. This implies systematic differences between missing and observed data.
 
-(iii) Missing At Random (MAR):
+3. Missing At Random (MAR):
 The probability of missing values depends only on observed data, not on the missing data itself. Missingness can be explained by other variables in the dataset.
 
 Strategies for Handling Missing Values:
@@ -37,7 +38,9 @@ Creating a new feature to capture missing values
 End of Distribution Imputation
 Arbitrary Imputation
 Imputing with frequent categories
-1.2) Managing Outliers:
+
+
+Managing Outliers:
 
 Outliers, which are data points significantly different from other observations, can distort analysis results and model performance. Techniques for handling outliers include:
 
